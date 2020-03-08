@@ -24,9 +24,21 @@ cat .python-version
 pyenv local
 ```
 
-Run python with chosen environment.
+Run python with the indicated environment.
 
 ```bash
 pyenv exec python
+```
+
+Get instructions for setting the shell python automatically.
+
+```bash
+pyenv init
+```
+
+In a configured shell, run python with the indicated environment.
+
+```bash
+python
 ```
 
